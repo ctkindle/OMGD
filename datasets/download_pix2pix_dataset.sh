@@ -23,7 +23,6 @@ else
 fi
 
 URL=$prefix$FILE.tar.gz
-print(URL)
 TAR_FILE=./database/$FILE.tar.gz
 TARGET_DIR=./database/$FILE/
 
