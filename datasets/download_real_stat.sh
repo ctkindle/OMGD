@@ -10,6 +10,7 @@ SUFFIX=$2
 prefix=https://hanlab.mit.edu/files/gan_compression/real_stat/
 
 URL=${prefix}${DATASET}_${SUFFIX}.npz
+print(URL)
 TARGET_DIR=./real_stat/
 TARGET_FILE=./real_stat/${DATASET}_${SUFFIX}.npz
 mkdir -p $TARGET_DIR
